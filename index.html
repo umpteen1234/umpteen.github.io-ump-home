@@ -1,0 +1,25 @@
+<html>
+<head>
+<h1>パスワードを入力</h1>
+<script type = "text/javascript">
+<!--
+
+function matchPass() {
+
+var inpass = document.forms[ "pass" ].elements[ "inpass" ].value;
+var validpass = "umpteen";
+if( inpass == validpass ) location.href = "https://umpteen1234.github.io/umpteen.github.io-ump-home/";
+else alert( "パスワードが間違っています。" );
+
+}
+</script>
+</head>
+<body>
+<form name = "pass">
+<div>
+<input type = "text" value = "" name = "inpass">
+<input type = "button" value = "認証" onclick = "matchPass();">
+</div>
+</form>
+</body>
+</html>
